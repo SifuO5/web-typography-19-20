@@ -1,3 +1,5 @@
+/*Hier is de timing van volledige zinnen aan te passen*/
+
 captions[0] = ['3.8','8.1'];
 captions[1] = ['8.1','10'];
 captions[2] = ['10.8','12.5'];

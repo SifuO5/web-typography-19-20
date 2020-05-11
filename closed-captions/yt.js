@@ -7,6 +7,7 @@ function onYouTubeIframeAPIReady() {
 		videoId: 'vrP-_T-h9YM',
 		playerVars: {
 			color: 'white',
+            rel: 0
 			//start: 
 			//autoplay: '1'
 			//playlist: 'taJ60kskkns,FG0fTKAqZ5g'
