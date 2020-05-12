@@ -5,6 +5,62 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+.shadow {
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: inset 0 0 2000px 300px #000;
+    z-index: 0;
+    opacity: 0%;
+/*    mix-blend-mode: none;*/
+    pointer-events: none;
+}
+
+.light {
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: inset 0 0 2000px 300px #FFF;
+    z-index: 0;
+    opacity: 0%;
+/*    mix-blend-mode: none;*/
+    pointer-events: none;
+}
+
+.red {
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: inset 0 0 2000px 300px red;
+    z-index: 0;
+    opacity: 0%;
+/*    mix-blend-mode: none;*/
+    pointer-events: none;
+}
+
+@keyframes shadow-animation {
+  0% {opacity: 0%;}
+  50% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
+.shadow-aan {
+    animation: shadow-animation 4s;
+}
+.light-aan {
+    animation: shadow-animation 4s;
+}
+.red-aan {
+    animation: shadow-animation 4s;
+}
+
+#closed-captions {
+    z-index: 1;
+}
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -28,17 +84,19 @@ Feel free to adjust the defaults to your needs.
 .voice3 {
     font-style: italic;
 }
-
 #video-placeholder {
     width: 100vw;
-    max-width: 2150px;
+    max-width: 70vw;
     height: 80vh;
     margin: 50px auto;
     display: block;
+    z-index: 2;
 }
 body {
     margin: 0px;
     background-color: #000;
+    z-index: 10;
+    overflow: hidden;
 }
 
 /*Alignment*/
