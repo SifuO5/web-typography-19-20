@@ -14,7 +14,7 @@ Feel free to adjust the defaults to your needs.
     box-shadow: inset 0 0 2000px 300px #000;
     z-index: 0;
     opacity: 0%;
-/*    mix-blend-mode: none;*/
+    mix-blend-mode: darken;
     pointer-events: none;
 }
 
@@ -26,7 +26,7 @@ Feel free to adjust the defaults to your needs.
     box-shadow: inset 0 0 2000px 300px #FFF;
     z-index: 0;
     opacity: 0%;
-/*    mix-blend-mode: none;*/
+    mix-blend-mode: exclusion;
     pointer-events: none;
 }
 
@@ -38,24 +38,24 @@ Feel free to adjust the defaults to your needs.
     box-shadow: inset 0 0 2000px 300px red;
     z-index: 0;
     opacity: 0%;
-/*    mix-blend-mode: none;*/
+    mix-blend-mode: normal;
     pointer-events: none;
 }
 
 @keyframes shadow-animation {
   0% {opacity: 0%;}
   50% {opacity: 100%;}
-  100% {opacity: 0%;}
+  100% {opacity: 100%;}
 }
 
 .shadow-aan {
-    animation: shadow-animation 4s;
+    animation: shadow-animation 2s;
 }
 .light-aan {
-    animation: shadow-animation 4s;
+    animation: shadow-animation 20s;
 }
 .red-aan {
-    animation: shadow-animation 4s;
+    animation: shadow-animation 2s;
 }
 
 #closed-captions {
