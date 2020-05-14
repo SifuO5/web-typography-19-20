@@ -34,13 +34,13 @@ function shoowShadow(broodjeaap) {
                 fietssleutel.classList.add(selectorAan);
             }, start);
 
-/*            setTimeout(function () {
+            setTimeout(function () {
                 fietssleutel.classList.remove(selectorAan);
-            }, start+2000);*/
+            }, start+2000);
         }
         displayShadow(9000,red,"red-aan")
-        displayShadow(15000,shadow,"shadow-aan")
-        displayShadow(6500,shadow,"shadow-aan")
+        displayShadow(23000,shadow,"shadow-aan")
+/*        displayShadow(6500,shadow,"shadow-aan")*/
 /*        displayShadow(2000,light,"light-aan")
         displayShadow(7000,light,"light-aan")*/
     }
