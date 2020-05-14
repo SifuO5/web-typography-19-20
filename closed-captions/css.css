@@ -6,7 +6,74 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 
-.shadow {
+/*Geluiden*/
+
+.effects {
+    width: 70vw;
+    height: 70vh;
+    opacity: 0%;
+    position: fixed;
+    pointer-events: none;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.sound0 .effects {
+    box-shadow: inset 0 0 2000px 300px #ff4800;
+    mix-blend-mode: color;
+    animation: shadow-animation1 2s;
+}
+
+@keyframes shadow-animation1 {
+  0% {opacity: 0%;}
+  50% {opacity: 100%;}
+  100% {opacity: 10s0%;}
+}
+
+.sound1 .effects {
+    box-shadow: inset 0 0 2000px 300px #00fff7;
+    mix-blend-mode: color;
+    animation: shadow-animation2 2s;
+}
+
+@keyframes shadow-animation2 {
+  0% {opacity: 0%;}
+  50% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
+.sound5 .effects {
+    box-shadow: inset 0 0 2000px 300px #000;
+    mix-blend-mode: normal;
+    animation: shadow-animation3 1s;
+}
+
+@keyframes shadow-animation3 {
+  0% {opacity: 0%;}
+  50% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
+
+
+
+
+/*.sound1 .effects {
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+    animation: shadow-animation 2s;
+    opacity: 0%;
+    position: absolute;
+    pointer-events: none;
+}*/
+
+
+
+
+/*.shadow {
     top: 0;
     position: absolute;
     width: 100vw;
@@ -40,23 +107,19 @@ Feel free to adjust the defaults to your needs.
     opacity: 0%;
     mix-blend-mode: normal;
     pointer-events: none;
-}
+}*/
 
-@keyframes shadow-animation {
-  0% {opacity: 0%;}
-  50% {opacity: 100%;}
-  100% {opacity: 100%;}
-}
 
-.shadow-aan {
+
+/*.shadow-aan {
     animation: shadow-animation 2s;
 }
 .light-aan {
-    animation: shadow-animation 20s;
+    animation: shadow-animation 2s;
 }
 .red-aan {
     animation: shadow-animation 2s;
-}
+}*/
 
 #closed-captions {
     z-index: 1;
@@ -95,7 +158,6 @@ Feel free to adjust the defaults to your needs.
 body {
     margin: 0px;
     background-color: #000;
-    z-index: 10;
     overflow: hidden;
 }
 

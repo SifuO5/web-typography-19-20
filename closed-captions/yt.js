@@ -7,19 +7,19 @@ function onYouTubeIframeAPIReady() {
         videoId: 'vrP-_T-h9YM',
         playerVars: {
             color: 'white',
-            rel: 0
+            rel: 0,
             //start: 
-            //autoplay: '1'
+            autoplay: '1'
             //playlist: 'taJ60kskkns,FG0fTKAqZ5g'
         },
         events: {
             onReady: initialize,
-            onStateChange: shoowShadow
+            /*onStateChange: shoowShadow*/
         }
     });
 }
 
-var shadow = document.querySelector(".shadow");
+/*var shadow = document.querySelector(".shadow");
 var light = document.querySelector(".light");
 var red = document.querySelector(".red");
 
@@ -40,11 +40,9 @@ function shoowShadow(broodjeaap) {
         }
         displayShadow(9000,red,"red-aan")
         displayShadow(23000,shadow,"shadow-aan")
-/*        displayShadow(6500,shadow,"shadow-aan")*/
-/*        displayShadow(2000,light,"light-aan")
-        displayShadow(7000,light,"light-aan")*/
+        displayShadow(2000,light,"light-aan")
     }
-}
+}*/
 
 function initialize() {
     // Update the controls on load
