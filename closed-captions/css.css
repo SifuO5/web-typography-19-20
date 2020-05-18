@@ -8,6 +8,10 @@ Feel free to adjust the defaults to your needs.
 
 /*Geluiden*/
 
+.scale {
+    transform:scale(5);
+}
+
 .effects {
     width: 70vw;
     height: 70vh;
@@ -47,7 +51,7 @@ Feel free to adjust the defaults to your needs.
 .sound5 .effects {
     box-shadow: inset 0 0 2000px 300px #000;
     mix-blend-mode: normal;
-    animation: shadow-animation3 1s;
+    animation: shadow-animation3 2s;
 }
 
 @keyframes shadow-animation3 {
@@ -73,18 +77,31 @@ Feel free to adjust the defaults to your needs.
 
 
 
-/*.shadow {
+.shadow {
     top: 0;
     position: absolute;
     width: 100vw;
     height: 100vh;
-    box-shadow: inset 0 0 2000px 300px #000;
+    box-shadow: inset 0 0 2000px 490px #000;
     z-index: 0;
     opacity: 0%;
-    mix-blend-mode: darken;
+/*    mix-blend-mode: darken;*/
     pointer-events: none;
 }
 
+.shadow-aan {
+    animation: shadow-animation 26s;
+    opacity: 100%;
+}
+
+@keyframes shadow-animation {
+  0% {opacity: 0%;}
+  50% {opacity: 30%;}
+  97% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
+/*
 .light {
     top: 0;
     position: absolute;
@@ -107,14 +124,13 @@ Feel free to adjust the defaults to your needs.
     opacity: 0%;
     mix-blend-mode: normal;
     pointer-events: none;
-}*/
-
-
-
-/*.shadow-aan {
-    animation: shadow-animation 2s;
 }
-.light-aan {
+*/
+
+
+
+
+/*.light-aan {
     animation: shadow-animation 2s;
 }
 .red-aan {
@@ -144,8 +160,9 @@ Feel free to adjust the defaults to your needs.
 .voice2 {
 	font-style: normal;
 }
-.voice3 {
+div .voice3 {
     font-style: italic;
+    font-size: 1.6em;
 }
 #video-placeholder {
     width: 100vw;
@@ -169,7 +186,8 @@ body {
     right: 6%;
 }
 .center {
-    left: 45%
+    left: 45%;
+    bottom: 40% !important;
 }
 
 /*Font*/
@@ -189,6 +207,10 @@ body {
 .extra-bold {
     font-weight: 800;
 }
+/*.extra-bold-small p{
+    font-weight: 800;
+    font-size !important: 1em;
+}*/
 
 /* **********************************************
 The first paragraph, with extended timing for 

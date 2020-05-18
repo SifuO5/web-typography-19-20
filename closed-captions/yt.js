@@ -14,14 +14,16 @@ function onYouTubeIframeAPIReady() {
         },
         events: {
             onReady: initialize,
-            /*onStateChange: shoowShadow*/
+            onStateChange: shoowShadow
         }
     });
 }
 
-/*var shadow = document.querySelector(".shadow");
+var shadow = document.querySelector(".shadow");
+/*
 var light = document.querySelector(".light");
 var red = document.querySelector(".red");
+*/
 
 function shoowShadow(broodjeaap) {
 
@@ -30,19 +32,17 @@ function shoowShadow(broodjeaap) {
         function displayShadow (start,selector,selectorAan) {
             var fietssleutel = selector
             setTimeout(function () {
-                console.log(fietssleutel);
+                console.log("test");
                 fietssleutel.classList.add(selectorAan);
             }, start);
 
             setTimeout(function () {
                 fietssleutel.classList.remove(selectorAan);
-            }, start+2000);
+            }, start+26000);
         }
-        displayShadow(9000,red,"red-aan")
-        displayShadow(23000,shadow,"shadow-aan")
-        displayShadow(2000,light,"light-aan")
+        displayShadow(50000,shadow,"shadow-aan")
     }
-}*/
+}
 
 function initialize() {
     // Update the controls on load
