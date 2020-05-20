@@ -17,11 +17,12 @@
 sounds = [
   // Hier kan je tijden toevoegen in secondes
   // Op die mommenten komt er een class op de body en haalt hem weer weg.
-  [0, 2],
-  [9, 10],
-  [12, 14],
-  [15, 19], /*blue*/
-  [24.5, 26.5],
-  [31, 33],
-  [34, 76],
+  [0, 2], //orange
+  [9, 10], //blue
+  [12, 13], //red
+  [15, 19], //aqua
+  [24.5, 26.5], //aqua inside
+  [31, 33], //aqua inside
+  [50, 76], //black
+  [5, 20], //black-box
 ];

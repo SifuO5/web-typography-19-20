@@ -19,12 +19,27 @@ Feel free to adjust the defaults to your needs.
     position: absolute;
     pointer-events: none;
     opacity: 0%;
-    box-shadow: inset 0 0 2000px 490px #ff4800;
+    box-shadow: inset 0 0 300px 190px #ff4800;
     mix-blend-mode: color;
     z-index: 2;
     transition: 2s opacity;
 }
 .blue {
+    left: 0;
+    right: 0;
+    top: 10em;
+    width: 70vw;
+    height: 65vh;
+    margin: 0 auto;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0%;
+    box-shadow: inset 0 0 100px 290px #03b5fc;
+    mix-blend-mode: color;
+    z-index: 2;
+    transition: 1s opacity;
+}
+.aqua {
     left: 0;
     right: 0;
     top: 10em;
@@ -49,7 +64,7 @@ Feel free to adjust the defaults to your needs.
     position: absolute;
     pointer-events: none;
     opacity: 0%;
-    box-shadow: inset 0 0 2000px 490px #ff0000;
+    box-shadow: inset 0 0 200px 290px #ff0000;
     mix-blend-mode: color;
     z-index: 2;
     transition: 1s opacity;
@@ -58,8 +73,8 @@ Feel free to adjust the defaults to your needs.
     left: 0;
     right: 0;
     top: 15%;
-    width: 70vw;
-    height: 70%;
+    width: 71vw;
+    height: 60%;
     margin: 0 auto;
     position: absolute;
     pointer-events: none;
@@ -68,37 +83,67 @@ Feel free to adjust the defaults to your needs.
     z-index: 2;
 }
 
+.black-box {
+    left: 0;
+    right: 0;
+    top: 15%;
+    width: 100vw;
+    height: 60%;
+    margin: 0 auto;
+    position: absolute;
+    pointer-events: none;
+    opacity: 0%;
+    /*box-shadow: inset 0 0 0px 100px red;*/
+    box-shadow: inset 0 0 0 0, 
+                inset 0 0 0 0, 
+                inset 200px 0 0 0 black, 
+                inset -200px 0 0 0 black;
+    z-index: 2;
+}
+
 /*orange1*/
 .sound0 .orange {
     opacity: 60%;
 }
-/*blue1*/
-.sound1 .orange {
-    opacity: 60%;
+/*blue*/
+.sound1 .blue {
+    opacity: 20%;
 }
 /*red1*/
 .sound2 .red {
-    opacity: 60%;
+    opacity: 40%;
 }
-/*orange2*/
-.sound3 .blue {
-    animation: blue-animation 2s;
+/*aqua*/
+.sound3 .aqua {
+    animation: aqua-animation 2s;
 }
-/*blue2*/
-.sound4 .blue {
-    animation: blue-animation 2s;
+/*aqua2*/
+.sound4 .aqua {
+    animation: aqua-animation 2s;
 }
-/*blue3*/
-.sound5 .blue {
-    animation: blue-animation 2s;
+/*aqua3*/
+.sound5 .aqua {
+    animation: aqua-animation 2s;
 }
 /*black1*/
 .sound6 .black {
     opacity: 100%;
-    animation: black-animation 42s;
+    animation: black-animation 26s;
+}
+.sound7 .black-box {
+    opacity: 100%;
+    animation: black-box-animation 15s;
 }
 
-@keyframes blue-animation {
+@keyframes black-box-animation {
+  0% {opacity: 0%;}
+  1% {opacity: 100%;}
+  2% {width: 100vw;}
+  100% {width: 75vw;}
+}
+
+
+@keyframes aqua-animation {
   0% {opacity: 0%;}
   60% {opacity: 50%;}
   70% {opacity: 2%;}
@@ -109,7 +154,6 @@ Feel free to adjust the defaults to your needs.
 
 @keyframes black-animation {
   0% {opacity: 0%;}
-  50% {opacity: 10%;}
   98% {opacity: 100%;}
   100% {opacity: 0%;}
 }
@@ -159,7 +203,7 @@ Feel free to adjust the defaults to your needs.
     opacity: 1;
 }
 .sound5 #closed-captions:before{
-    content: "[Alarm]";
+    content: "[Mechanical siren]";
     opacity: 1;
 }
 .sound6 #closed-captions:before{
@@ -230,13 +274,10 @@ body {
     margin: 0 auto 30px auto;
     left: 0;
     right: 0;
-    text-align: center;
-    font-size: 1.2em !important;
 }
 
 /*Font*/
 .custom-font {
-    /*font-family: "brenner mono";*/
     font-family: "brenner sans condensed";
     color: #FFF;
     font-size: 40px;
@@ -250,11 +291,13 @@ body {
 }
 .extra-bold {
     font-weight: 800;
+    font-size: 2.3em !important;
 }
-/*.extra-bold-small p{
-    font-weight: 800;
-    font-size !important: 1em;
-}*/
+.extra-bold-small{
+    font-weight: 400;
+    font-size: 1.2em !important;
+    text-align: center;
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -442,5 +485,10 @@ You probably want to change the styling.
 .p4.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.9s;
+}
+
+.p6.on span:nth-of-type(1),
+.p6.on span:nth-of-type(2) {
+     font-weight: 900 !important;
 }
 
