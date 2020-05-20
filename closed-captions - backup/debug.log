@@ -1,0 +1,6 @@
+[0507/163427.392:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[0507/163427.399:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: De pipe is beëindigd. (0x6D)
+[0507/163427.400:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[0512/130855.708:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[0512/130855.715:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: De pipe is beëindigd. (0x6D)
+[0512/130855.716:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Users\Public\Documents\Google\Chrome: Het systeem kan het opgegeven pad niet vinden. (0x3)

@@ -14,11 +14,16 @@ function onYouTubeIframeAPIReady() {
         },
         events: {
             onReady: initialize,
+            onStateChange: shoowShadow
         }
     });
 }
 
-/*var shadow = document.querySelector(".shadow");
+var shadow = document.querySelector(".shadow");
+/*
+var light = document.querySelector(".light");
+var red = document.querySelector(".red");
+*/
 
 function shoowShadow(broodjeaap) {
 
@@ -37,7 +42,7 @@ function shoowShadow(broodjeaap) {
         }
         displayShadow(50000,shadow,"shadow-aan")
     }
-}*/
+}
 
 function initialize() {
     // Update the controls on load
@@ -107,7 +112,7 @@ function pTimes(num, startT, endT, curT) {
 function sTimes(num, soundStarts, curT) {
     var soundClass = 'sound' + num;
     var b = document.querySelector('body');
-/*    console.log(soundStarts);*/
+    console.log(soundStarts);
     if (curT > soundStarts[0] && !b.classList.contains(soundClass) && curT < soundStarts[1]) {
         b.classList.add(soundClass);
     }
