@@ -7,7 +7,7 @@ Marie gebruikt een chromecast op haar TV en kijkt daarop series en films. Zo nu 
 ## Desgin keuzes
 
 Wil de gebruiker verassen met dingen die ze nog niet kennen in de context van een film.
-Gekozen font: brenner. Meer font variaties om mee te experimenteren.
+Gekozen font: brenner. Meer font variaties om mee te experimenteren. Je weet hoe het geheel er uit gaat zien bij iemand anders.
 De film zelf zo breed mogelijk.
 Donkere achtergrond.
 Typografie - bold / regular
