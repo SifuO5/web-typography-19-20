@@ -2,11 +2,11 @@
 
 Tailor made voor Marie.
 Typografisch rijke closed captions
-
-Gekozen font: brenner
+Marie gebruikt een chromecast op haar TV en kijkt daarop series en films. Zo nu en dan kijkt ze die ook op haar laptop.
 
 ## Desgin keuzes
 
+Gekozen font: brenner. Meer font variaties om mee te experimenteren.
 Typografie - bold / regular
 Links / rechts
 Groot / klein
