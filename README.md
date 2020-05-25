@@ -32,8 +32,6 @@ Benadrukken van bepaalde woorden - Met mate gebruikt
 Zinnen woord voor woord laten verschijnen - 
 
 
-
-
 ## Verwerkte feedback van Marie
 
 Geluiden in de captions omschrijven
@@ -48,9 +46,22 @@ Meer van de geluiden visueel verwerken
 Typografie ziet er goed uit
 Let er op dat closed captions niet overkomen als geschreeuw wanneer er niet geschreeuwd wordt.
 
-#### Voor de 
+## Toegepaste exlusive design principles
+1. Provide a unique experience & 2. Ignore situation
+Deze toepassing is gemaakt voor het beeldscherm waarop Marie graag films kijkt, de tv. Deze staat verder weg dan een mobiel of laptop. Ik gebruik dus grotere letters voor de closed captions. Ook de layout is geoptimaliseerd voor een TV ratio.
+
+4. Take control
+TV's kunnen vaak meer intense kleuren weergeven dan bijvoorbeeld een laptop of standaard monitor.De intense kleur overlays maken hier goed gebruik van. Ook zijn animaties extra soepel als het beeldscherm een hoge verversingssnelheid heeft.
+
+5. Offer the best possible solution
+Door met Marie in gesprek te gaan over welke ideeën goed of slecht bevallen heb ik mijn site zo goed mogelijk laten aansluiten op haar wensen.
+
+7. Add nonsense
+Door kleine dingetjes toe te voegen heb ik geprobeerd de kijkervaring nog leuker te maken. In het begin trilt het beeld door de lage geluiden. Iets later wordt het kader van de video kleiner tijdens een scene waar niet veel gebeurd. 
 
 
+#### Zie onderstaande link voor de oudere versies van dit project
+https://github.com/SifuO5/web-typography-19-20/commits/master
 
 
 
