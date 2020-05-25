@@ -8,6 +8,7 @@ Marie gebruikt een chromecast op haar TV en kijkt daarop series en films. Zo nu 
 
 Wil de gebruiker verassen met dingen die ze nog niet kennen in de context van een film.
 Gekozen font: brenner. Meer font variaties om mee te experimenteren. Je weet hoe het geheel er uit gaat zien bij iemand anders.
+Mijn site maakt gebruik van de Brenner Condensed in regular en bold varianten.
 De film zelf zo breed mogelijk.
 Donkere achtergrond.
 Typografie - bold / regular
