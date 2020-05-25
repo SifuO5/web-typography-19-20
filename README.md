@@ -12,7 +12,7 @@ Mijn site maakt gebruik van de Brenner Condensed in regular en bold varianten.
 De film zelf zo breed mogelijk.
 Donkere achtergrond.
 Typografie - bold / regular
-Links / rechts
+Links / rechts - creëert spanning bij het lezen omdat je niet zeker weet wie van de twee als volgende zal praten.
 Groot / klein
 Kleur overlays - hoe lang komt de overlay op scherm en welke kleur past het beste bij welk geluid?
 Kleur overlays - de kleuren kunnen op verschillende tempo's en intensiteiten in beeld komen. Dit komt overeen met het bijhoorende geluid.
@@ -47,16 +47,16 @@ Typografie ziet er goed uit
 Let er op dat closed captions niet overkomen als geschreeuw wanneer er niet geschreeuwd wordt.
 
 ## Toegepaste exlusive design principles
-1. Provide a unique experience & 2. Ignore situation
+### 1. Provide a unique experience & 2. Ignore situation <br>
 Deze toepassing is gemaakt voor het beeldscherm waarop Marie graag films kijkt, de tv. Deze staat verder weg dan een mobiel of laptop. Ik gebruik dus grotere letters voor de closed captions. Ook de layout is geoptimaliseerd voor een TV ratio.
 
-4. Take control
+### 4. Take control <br>
 TV's kunnen vaak meer intense kleuren weergeven dan bijvoorbeeld een laptop of standaard monitor.De intense kleur overlays maken hier goed gebruik van. Ook zijn animaties extra soepel als het beeldscherm een hoge verversingssnelheid heeft.
 
-5. Offer the best possible solution
+### 5. Offer the best possible solution <br>
 Door met Marie in gesprek te gaan over welke ideeën goed of slecht bevallen heb ik mijn site zo goed mogelijk laten aansluiten op haar wensen.
 
-7. Add nonsense
+### 7. Add nonsense <br>
 Door kleine dingetjes toe te voegen heb ik geprobeerd de kijkervaring nog leuker te maken. In het begin trilt het beeld door de lage geluiden. Iets later wordt het kader van de video kleiner tijdens een scene waar niet veel gebeurd. 
 
 
