@@ -127,8 +127,7 @@ Feel free to adjust the defaults to your needs.
 }
 /*black1*/
 .sound6 .black {
-    opacity: 100%;
-    animation: black-animation 26s;
+    animation: black-animation 20.5s;
 }
 .sound7 .black-box {
     opacity: 100%;
@@ -148,13 +147,13 @@ Feel free to adjust the defaults to your needs.
   60% {opacity: 50%;}
   70% {opacity: 2%;}
   75% {opacity: 60%;}
-  90% {opacity: 60%;}
+  96% {opacity: 60%;}
   100% {opacity: 0%;}
 }
 
 @keyframes black-animation {
   0% {opacity: 0%;}
-  98% {opacity: 100%;}
+  97% {opacity: 100%;}
   100% {opacity: 0%;}
 }
 
@@ -487,8 +486,226 @@ You probably want to change the styling.
 	transition: 0s 1.9s;
 }
 
-.p6.on span:nth-of-type(1),
+
+
+/*interlinked within cells, interlinked within one stem.*/
+
+.p5 span {
+	opacity: 0;
+}
+.p5.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+}
+
+.p5.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .3s;
+}
+
+.p5.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .5s;
+}
+
+.p5.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s 0.8s;
+}
+
+.p5.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 1.1s;
+}
+
+.p5.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s 1.6s;
+}
+
+.p5.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s 1.9s;
+}
+
+
+/*Fuck off, skin-job!*/
+
+.p6 span {
+	opacity: 0;
+}
+
+.p6.on span:first-of-type {
+    opacity: 1;
+	transition: 0s;
+    font-weight: 900 !important;
+}
 .p6.on span:nth-of-type(2) {
      font-weight: 900 !important;
+     opacity: 1;
+	 transition: 0s 0.2s;
 }
+.p6.on span:nth-of-type(3) {
+    opacity: 1;
+	transition: 0s 0.5s;
+    
+}
+
+/*And dreadfully distinct against the dark, a tall white fountain played...*/
+
+.p7 span {
+	opacity: 0;
+}
+.p7.on span:first-of-type {
+    opacity: 1;
+	transition: 0s;
+}
+.p7.on span:nth-of-type(2) {
+     opacity: 1;
+	 transition: 0s 0.2s;
+}
+.p7.on span:nth-of-type(3) {
+    opacity: 1;
+	transition: 0s 0.6s;
+}
+.p7.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s 0.9s;
+}
+.p7.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 1.3s;
+}
+.p7.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s 1.6s;
+}
+.p7.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s 2.1s;
+}
+.p7.on span:nth-of-type(8) {
+	opacity: 1;
+	transition: 0s 2.3s;
+}
+.p7.on span:nth-of-type(9) {
+	opacity: 1;
+	transition: 0s 2.5s;
+}
+.p7.on span:nth-of-type(10) {
+	opacity: 1;
+	transition: 0s 3.0s;
+}
+.p7.on span:nth-of-type(11) {
+	opacity: 1;
+	transition: 0s 3.2s;
+}
+
+/*Within cells interlinked. 1*/
+
+.p41 span {
+	opacity: 0;
+}
+.p41.on span:first-of-type {
+    animation: fade-out-1 2s;
+}
+.p41.on span:nth-of-type(2) {
+	 animation: fade-out-2 2s;
+}
+.p41.on span:nth-of-type(3) {
+	animation: fade-out-3 2.3s;
+}
+
+@keyframes fade-out-1 {
+    0% {opacity: 100%;}
+    80% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+@keyframes fade-out-2 {
+    0% {opacity: 0%;}
+    20% {opacity: 0%;}
+    60% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+@keyframes fade-out-3 {
+    0% {opacity: 0%;}
+    30% {opacity: 0%;}
+    80% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+/*Within cells interlinked. 2*/
+
+.p42 span {
+	opacity: 0;
+}
+.p42.on span:first-of-type {
+    animation: fade-out-1 1.2s;
+}
+.p42.on span:nth-of-type(2) {
+	 animation: fade-out-2 2s;
+}
+.p42.on span:nth-of-type(3) {
+	animation: fade-out-3 2.3s;
+}
+
+@keyframes fade-out-1 {
+    0% {opacity: 100%;}
+    40% {opacity: 100%;}
+    50% {opacity: 70%;}
+    100% {opacity: 0%;}
+}
+
+@keyframes fade-out-2 {
+    0% {opacity: 0%;}
+    20% {opacity: 0%;}
+    60% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+@keyframes fade-out-3 {
+    0% {opacity: 0%;}
+    30% {opacity: 0%;}
+    80% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+/*Within cells interlinked. 3*/
+
+.p43 span {
+	opacity: 0;
+}
+.p43.on span:first-of-type {
+    animation: fade-out-1 1.2s;
+}
+.p43.on span:nth-of-type(2) {
+	 animation: fade-out-2 2s;
+}
+.p43.on span:nth-of-type(3) {
+	animation: fade-out-3 2.3s;
+}
+
+@keyframes fade-out-1 {
+    0% {opacity: 100%;}
+    40% {opacity: 100%;}
+    50% {opacity: 70%;}
+    100% {opacity: 0%;}
+}
+
+@keyframes fade-out-2 {
+    0% {opacity: 0%;}
+    20% {opacity: 0%;}
+    60% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+@keyframes fade-out-3 {
+    0% {opacity: 0%;}
+    30% {opacity: 0%;}
+    80% {opacity: 100%;}
+    100% {opacity: 0%;}
+}
+
+
+
+
 

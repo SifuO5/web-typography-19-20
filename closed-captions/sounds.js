@@ -23,6 +23,6 @@ sounds = [
   [15, 19], //aqua
   [24.5, 26.5], //aqua inside
   [31, 33], //aqua inside
-  [50, 76], //black
+  [55, 75.5], //black
   [5, 20], //black-box
 ];
