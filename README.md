@@ -6,7 +6,10 @@ Marie gebruikt een chromecast op haar TV en kijkt daarop series en films. Zo nu 
 
 ## Desgin keuzes
 
+Wil de gebruiker verassen met dingen die ze nog niet kennen in de context van een film.
 Gekozen font: brenner. Meer font variaties om mee te experimenteren.
+De film zelf zo breed mogelijk.
+Donkere achtergrond.
 Typografie - bold / regular
 Links / rechts
 Groot / klein
@@ -15,6 +18,8 @@ Kleur overlays - de kleuren kunnen op verschillende tempo's en intensiteiten in 
 Zwarte schaduw overlay
 Timing 
 Trillend scherm
+Soepele transities d.m.v. easing
+De film wordt horizontaal kleiner. - add nonsense
 
 ## Experimenten
 
