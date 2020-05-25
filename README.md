@@ -12,7 +12,7 @@ Mijn site maakt gebruik van de Brenner Condensed in regular en bold varianten.
 De film zelf zo breed mogelijk.
 Donkere achtergrond.
 Typografie - bold / regular
-Links / rechts
+Links / rechts - creëert spanning bij het lezen omdat je niet zeker weet wie van de twee als volgende zal praten.
 Groot / klein
 Kleur overlays - hoe lang komt de overlay op scherm en welke kleur past het beste bij welk geluid?
 Kleur overlays - de kleuren kunnen op verschillende tempo's en intensiteiten in beeld komen. Dit komt overeen met het bijhoorende geluid.
