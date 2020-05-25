@@ -214,7 +214,7 @@ Feel free to adjust the defaults to your needs.
 #closed-captions p, #closed-captions:before{
 	opacity: 0;
 	position: fixed;
-    max-width: 500px;
+    max-width: 430px;
     bottom: 35%;
     font-family: "brenner sans condensed";
     color: #FFF;
@@ -500,32 +500,32 @@ You probably want to change the styling.
 
 .p5.on span:nth-of-type(2) {
 	opacity: 1;
-	transition: 0s .3s;
+	transition: 0s .5s;
 }
 
 .p5.on span:nth-of-type(3) {
 	opacity: 1;
-	transition: 0s .5s;
+	transition: 0s .9s;
 }
 
 .p5.on span:nth-of-type(4) {
 	opacity: 1;
-	transition: 0s 0.8s;
+	transition: 0s 1.3s;
 }
 
 .p5.on span:nth-of-type(5) {
 	opacity: 1;
-	transition: 0s 1.1s;
+	transition: 0s 1.8s;
 }
 
 .p5.on span:nth-of-type(6) {
 	opacity: 1;
-	transition: 0s 1.6s;
+	transition: 0s 2.3s;
 }
 
 .p5.on span:nth-of-type(7) {
 	opacity: 1;
-	transition: 0s 1.9s;
+	transition: 0s 2.6s;
 }
 
 
