@@ -1,4 +1,6 @@
-# Responsive Typography intro
+# Responsive Typography
+
+## Intro
 
 Deze website is tailor made voor Marie en maakt geluid visueel d.m.v. tpografisch rijke closed captions en verschillende effecten. In mijn eerste gesprek met Marie vroeg ik welke apparaten ze gebruikt voor het kijken van films. Marie gebruikt een chromecast op haar TV en kijkt daarop films en series. Zo nu en dan kijkt ze die ook op haar laptop.
 
