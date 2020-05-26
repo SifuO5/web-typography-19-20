@@ -19,7 +19,7 @@ Feel free to adjust the defaults to your needs.
     position: absolute;
     pointer-events: none;
     opacity: 0%;
-    box-shadow: inset 0 0 300px 190px #ff4800;
+    box-shadow: inset 0 0 300px 250px #ff4800;
     mix-blend-mode: color;
     z-index: 2;
     transition: 2s opacity;
@@ -34,7 +34,7 @@ Feel free to adjust the defaults to your needs.
     position: absolute;
     pointer-events: none;
     opacity: 0%;
-    box-shadow: inset 0 0 100px 290px #03b5fc;
+    box-shadow: inset 0 0 300px 290px #03b5fc;
     mix-blend-mode: color;
     z-index: 2;
     transition: 1s opacity;
@@ -44,7 +44,7 @@ Feel free to adjust the defaults to your needs.
     right: 0;
     top: 10em;
     width: 70vw;
-    height: 60vh;
+    height: 65vh;
     margin: 0 auto;
     position: absolute;
     pointer-events: none;
@@ -59,7 +59,7 @@ Feel free to adjust the defaults to your needs.
     right: 0;
     top: 10em;
     width: 70vw;
-    height: 60vh;
+    height: 65vh;
     margin: 0 auto;
     position: absolute;
     pointer-events: none;
@@ -74,7 +74,7 @@ Feel free to adjust the defaults to your needs.
     right: 0;
     top: 15%;
     width: 71vw;
-    height: 60%;
+    height: 65vh;
     margin: 0 auto;
     position: absolute;
     pointer-events: none;
@@ -88,7 +88,7 @@ Feel free to adjust the defaults to your needs.
     right: 0;
     top: 15%;
     width: 100vw;
-    height: 60%;
+    height: 65vh;
     margin: 0 auto;
     position: absolute;
     pointer-events: none;
@@ -103,11 +103,11 @@ Feel free to adjust the defaults to your needs.
 
 /*orange1*/
 .sound0 .orange {
-    opacity: 60%;
+    opacity: 100%;
 }
 /*blue*/
 .sound1 .blue {
-    opacity: 20%;
+    opacity: 40%;
 }
 /*red1*/
 .sound2 .red {
@@ -115,15 +115,15 @@ Feel free to adjust the defaults to your needs.
 }
 /*aqua*/
 .sound3 .aqua {
-    animation: aqua-animation 2s;
+    animation: aqua-animation-light 2s;
 }
 /*aqua2*/
 .sound4 .aqua {
-    animation: aqua-animation 2s;
+    animation: aqua-animation-light 2s;
 }
 /*aqua3*/
 .sound5 .aqua {
-    animation: aqua-animation 2s;
+    animation: aqua-animation-heavy 2s;
 }
 /*black1*/
 .sound6 .black {
@@ -141,13 +141,21 @@ Feel free to adjust the defaults to your needs.
   100% {width: 75vw;}
 }
 
+@keyframes aqua-animation-light {
+  0% {opacity: 0%;}
+  60% {opacity: 20%;}
+  70% {opacity: 2%;}
+  75% {opacity: 30%;}
+  96% {opacity: 30%;}
+  100% {opacity: 0%;}
+}
 
-@keyframes aqua-animation {
+@keyframes aqua-animation-heavy {
   0% {opacity: 0%;}
   60% {opacity: 50%;}
   70% {opacity: 2%;}
-  75% {opacity: 60%;}
-  96% {opacity: 60%;}
+  75% {opacity: 70%;}
+  96% {opacity: 70%;}
   100% {opacity: 0%;}
 }
 
@@ -179,6 +187,7 @@ Feel free to adjust the defaults to your needs.
     text-align: center;
     transition: .5s;
     position: fixed;
+    margin-top: 100px;
 }
 
 .sound0 #closed-captions:before {
@@ -215,7 +224,7 @@ Feel free to adjust the defaults to your needs.
 	opacity: 0;
 	position: fixed;
     max-width: 430px;
-    bottom: 35%;
+    top: 60%;
     font-family: "brenner sans condensed";
     color: #FFF;
     font-size: 30px;
@@ -252,25 +261,26 @@ body {
     margin: 0px;
     background-color: #000;
     overflow: hidden;
+    margin-top: 90px;
 }
 
 /*Alignment*/
 .left {
-    left: 6%;
+    left: 8%;
 }
 .right {
-    right: 6%;
+    right: 8%;
 }
 .right-2 {
-    right: 6%;
-    bottom: 32% !important;
+    right: 8%;
+    top: 63% !important;
 }
 .right-3 {
-    right: 6%;
-    bottom: 29% !important;
+    right: 8%;
+    top: 66% !important;
 }
 .center {
-    margin: 0 auto 30px auto;
+    margin: 40px auto 0px auto;
     left: 0;
     right: 0;
 }
@@ -310,27 +320,34 @@ You probably want to change the styling.
 
 /*Officer K D 6 - 3 . 7. Let’s begin. Ready?*/
 
+.p0 {
+    max-width: 250px !important;
+}
+
 .p0 span {
 	opacity: 0;
 }
 .p0.on span:first-of-type {
 	opacity: 1;
-	transition: 0s;
+	transition: 1s;
+    font-family: "brenner Sans condensed";
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
-	margin-right: -.25em;
+
+    font-family: "brenner Sans condensed";
 }
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
-	margin-right: -.25em;
+
+    font-family: "brenner Sans condensed";
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .7s;
-	margin-right: -.25em;
+
     font-family: "brenner mono";
 }
 .p0.on span:nth-of-type(5) {
