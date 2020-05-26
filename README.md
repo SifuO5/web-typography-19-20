@@ -4,6 +4,7 @@ Deze website is tailor made voor Marie en maakt geluid visueel d.m.v. tpografisc
 
 ## Desgin keuzes
 
+#### Algemene vormgeving
 Mijn doel was om de gebruiker verassen met visuele elementen die ze nog niet kennen in de context van een film. Voordat ik met die elementen aan de slag ging heb ik aantal basis stappen genomen om de film fijn om naar te kijken te maken. De film zelf is zo breed mogelijk gemaakt en schaalt mee met de breedte van het scherm. Ook heb ik gekozen voor een donkere achtergrond wat niet afleidt van de film en prettig is voor de ogen.
 
 #### Typografie
