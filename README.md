@@ -1,4 +1,5 @@
 # Responsive Typography
+https://sifuo5.github.io/web-typography-19-20/closed-captions/
 
 ## Intro
 
